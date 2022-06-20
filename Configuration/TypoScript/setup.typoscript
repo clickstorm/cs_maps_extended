@@ -17,3 +17,15 @@ plugin.tx_gomapsext {
 		}
   )
 }
+
+# @TODO: adjust parameter to detail page
+config.recordLinks.tx_csmapsextended_categories {
+  forceLink = 0
+
+  typolink {
+    parameter = 1
+    additionalParams.data = field:uid
+    additionalParams.wrap = &tx_gomapsext_show[category]=|
+    useCacheHash = 1
+  }
+}

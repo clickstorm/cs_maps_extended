@@ -1,0 +1,11 @@
+# @TODO: adjust storagePid
+TCEMAIN.linkHandler.tx_csmapsextended_categories {
+  handler = TYPO3\CMS\Recordlist\LinkHandler\RecordLinkHandler
+  label = LLL:EXT:cs_maps_extended/Resources/Private/Language/locallang.xlf:link.tx_csmapsextended_categories
+  configuration {
+    table = sys_category
+    hidePageTree = 1
+    storagePid = 1
+  }
+  scanAfter = page
+}
