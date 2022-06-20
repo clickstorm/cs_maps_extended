@@ -26,11 +26,8 @@
 	],
 	"require": {
 		"typo3/cms-core": "^10.0",
-		"clickstorm/go-maps-ext": "^4.0",
+		"clickstorm/go-maps-ext": "^4.0 || dev-4x",
 		"georgringer/news": "^9.0"
-	},
-	"require-dev": {
-		"clickstorm/go-maps-ext": "dev-4x"
 	},
 	"extra": {
 		"typo3/cms": {
