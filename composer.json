@@ -1,0 +1,42 @@
+{
+	"name": "clickstorm/cs-maps-extended",
+	"type": "typo3-cms-extension",
+	"description": "Just an example extension. Based on go_maps_ext and news some extended functionality.",
+	"homepage": "https://www.clickstorm.de",
+	"authors": [
+		{
+			"name": "Marc Hirdes",
+			"email": "hirdes@clickstorm.de",
+			"homepage": "https://www.clickstorm.de",
+			"role": "Developer"
+		}
+	],
+	"license": [
+		"GPL-2.0-or-later"
+	],
+	"keywords": [
+		"TYPO3 CMS",
+		"map",
+		"google",
+		"marker",
+		"route",
+		"kml",
+		"style",
+		"extbase"
+	],
+	"require": {
+		"typo3/cms-core": "^10.0",
+		"clickstorm/go-maps-ext": "^4.0",
+		"georgringer/news": "^9.0"
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "cs_maps_extended"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"Clickstorm\\CsMapsExtended\\": "Classes/"
+		}
+	}
+}
