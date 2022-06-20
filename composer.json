@@ -29,6 +29,9 @@
 		"clickstorm/go-maps-ext": "^4.0",
 		"georgringer/news": "^9.0"
 	},
+	"require-dec": {
+		"clickstorm/go-maps-ext": "dev-master"
+	},
 	"extra": {
 		"typo3/cms": {
 			"extension-key": "cs_maps_extended"
