@@ -2,8 +2,16 @@
 <ul class="gme-cats">
     <!-- example for linking categories -->
     <f:for each="{categories}" as="category">
-        <li{f:if(condition: '{request.category} == {category.uid}', then: ' class="active"')}>
-            <f:link.action arguments="{category:category.uid}">{category.title}</f:link.action>
+        <li
+        {f:if(condition: '{request.category} == {category.uid}', then: ' class="active"')}>
+        <f:link.action arguments="{category:category.uid}">
+            <f:if condition="{category.images}">
+                <f:for each="{category.images}" as="image">
+                    <f:image image="{image}" maxWidth="200" maxHeight="200"/>
+                </f:for>
+            </f:if>
+            {category.title}
+        </f:link.action>
         </li>
     </f:for>
 </ul>
