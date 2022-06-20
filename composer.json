@@ -29,7 +29,7 @@
 		"clickstorm/go-maps-ext": "^4.0",
 		"georgringer/news": "^9.0"
 	},
-	"require-dec": {
+	"require-dev": {
 		"clickstorm/go-maps-ext": "dev-master"
 	},
 	"extra": {
