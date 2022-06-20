@@ -1,0 +1,10 @@
+plugin.tx_csmapsextended {
+	view {
+		# cat=plugin.tx_csmapsextended/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:cs_maps_extended/Resources/Private/Templates/
+		# cat=plugin.tx_csmapsextended/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:cs_maps_extended/Resources/Private/Partials/
+		# cat=plugin.tx_csmapsextended/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:cs_maps_extended/Resources/Private/Layouts/
+	}
+}

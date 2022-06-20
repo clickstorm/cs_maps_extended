@@ -1,0 +1,19 @@
+plugin.tx_gomapsext {
+	view {
+		templateRootPaths {
+			200 = {$plugin.tx_csmapsextended.view.templateRootPath}
+		}
+		partialRootPaths {
+			200 = {$plugin.tx_csmapsextended.view.partialRootPath}
+		}
+		layoutRootPaths {
+			200 = {$plugin.tx_csmapsextended.view.layoutRootPath}
+		}
+	}
+  # example active color
+  _CSS_DEFAULT_STYLE (
+		.tx-go-maps-ext .active a {
+			color: green;
+		}
+  )
+}
